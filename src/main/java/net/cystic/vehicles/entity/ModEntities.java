@@ -15,7 +15,8 @@ import net.minecraft.util.Identifier;
 
 public class ModEntities {
     public static final EntityType<UfoEntity> UFO = Registry.register(
-            Registries.ENTITY_TYPE, new Identifier(CysticsVehicles.MOD_ID, "ufo"),
+            Registries.ENTITY_TYPE,
+            new Identifier(CysticsVehicles.MOD_ID, "ufo"),
             FabricEntityTypeBuilder.create(SpawnGroup.MISC, UfoEntity::new)
                     .dimensions(EntityDimensions.fixed(3f, 1f)).build());
 }
