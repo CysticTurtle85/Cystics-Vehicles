@@ -14,7 +14,6 @@ import net.minecraft.entity.mob.MobEntity;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static net.cystic.vehicles.entity.ModEntities.UFO;
 
 public class CysticsVehicles implements ModInitializer {
 	public static final String MOD_ID = "cysticsvehicles";
@@ -22,6 +21,6 @@ public class CysticsVehicles implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		FabricDefaultAttributeRegistry.register(UFO, UfoEntity.createLivingAttributes());
+		FabricDefaultAttributeRegistry.register(ModEntities.UFO, UfoEntity.createLivingAttributes());
 	}
 }

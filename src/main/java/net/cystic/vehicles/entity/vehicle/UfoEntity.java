@@ -30,7 +30,7 @@ public class UfoEntity extends LivingEntity implements GeoEntity {
 
     @Override
     public ItemStack getEquippedStack(EquipmentSlot slot) {
-        return null;
+        return ItemStack.EMPTY;
     }
 
     @Override
