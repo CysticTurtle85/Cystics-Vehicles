@@ -21,6 +21,6 @@ public class CysticsVehicles implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		FabricDefaultAttributeRegistry.register(ModEntities.UFO, UfoEntity.createLivingAttributes());
+		FabricDefaultAttributeRegistry.register(ModEntities.UFO, UfoEntity.createMobAttributes());
 	}
 }

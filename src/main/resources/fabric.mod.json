@@ -18,6 +18,9 @@
 		"main": [
 			"net.cystic.vehicles.CysticsVehicles"
 		],
+		"client": [
+			"net.cystic.vehicles.CysticsVehiclesClient"
+		],
 		"fabric-datagen": [
 			"net.cystic.vehicles.CysticsVehiclesDataGenerator"
 		]
